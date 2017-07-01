@@ -1,7 +1,7 @@
 ### Getting started
 
-1. Install [Eclipse CDT](https://eclipse.org/cdt/) and [GNU ARM plugins](http://gnuarmeclipse.github.io) from Marketplace
-2. Install [GNU ARM Eclipse QEMU](http://gnuarmeclipse.github.io/qemu/)
+1. Install [Eclipse CDT](https://eclipse.org/cdt/) and [GNU ARM plugins](https://gnuarmeclipse.github.io/plugins/install/) from Marketplace
+2. Install [GNU ARM Eclipse QEMU](https://gnuarmeclipse.github.io/qemu/)
 3. Install [mbed-cli](https://github.com/ARMmbed/mbed-cli)
 
 ```
