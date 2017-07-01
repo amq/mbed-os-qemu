@@ -1,6 +1,7 @@
 ### Getting started
 
 1. Install [Eclipse CDT](https://eclipse.org/cdt/) and [GNU ARM plugins](http://gnuarmeclipse.github.io) from Marketplace
+2. Install [GNU ARM Eclipse QEMU](http://gnuarmeclipse.github.io/qemu/)
 2. Install [mbed-cli](https://github.com/ARMmbed/mbed-cli)
 
 ```
@@ -27,7 +28,8 @@ mbed export -i gnuarmeclipse -m DISCO_F407VG
 ```
 
 6. Import `mbed-os-qemu` in Eclipse using `File - Import - General - Existing Projects into Workspace`
-7. Start debugging using the `mbed-os-qemu Debug` configuration
+7. Configure the QEMU path in `Window - Preferences - Run/Debug - QEMU`
+8. Start debugging using the `mbed-os-qemu Debug` configuration
 
 ### Known issues
 
