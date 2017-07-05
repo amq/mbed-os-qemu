@@ -24,7 +24,7 @@ mbed update
 6. Export an Eclipse project
 
 ```
-mbed export -i gnuarmeclipse -m DISCO_F407VG
+mbed export -i gnuarmeclipse -m DISCO_F429ZINF
 ```
 
 7. Import `mbed-os-qemu` in Eclipse using `File - Import - General - Existing Projects into Workspace`
@@ -39,3 +39,6 @@ Safe to ignore:
 
 Limitations of QEMU:
 - Floating Point Unit is not supported
+
+Other:
+- `printf` is not supported
