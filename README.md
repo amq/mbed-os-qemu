@@ -1,35 +1,34 @@
 ### Getting started
 
-1. Install [Eclipse CDT](https://eclipse.org/cdt/) and [GNU ARM plugins](https://gnuarmeclipse.github.io/plugins/install/) from Marketplace
-2. Install [GNU ARM Eclipse QEMU](https://gnuarmeclipse.github.io/qemu/)
-3. Install [mbed-cli](https://github.com/ARMmbed/mbed-cli)
+1. Install:
+- [ARM Toolchain](http://gnuarmeclipse.github.io/toolchain/install/)
+- [Eclipse CDT](https://eclipse.org/cdt/)
+- [GNU ARM plugins](https://gnuarmeclipse.github.io/plugins/install/) from the Eclipse Marketplace
+- [GNU ARM Eclipse QEMU](https://gnuarmeclipse.github.io/qemu/)
+- [mbed-cli](https://github.com/ARMmbed/mbed-cli)
 
-```
-pip install mbed-cli
-```
-
-4. Clone this repo and cd there
+2. Clone this repo and cd there
 
 ```
 git clone https://github.com/amq/mbed-os-qemu
 cd mbed-os-qemu
 ```
 
-5. Download mbed-os
+3. Download mbed-os and the libraries
 
 ```
 mbed update
 ```
 
-6. Export an Eclipse project
+4. Export an Eclipse project
 
 ```
 mbed export -i gnuarmeclipse -m DISCO_F429ZI
 ```
 
-7. Import `mbed-os-qemu` in Eclipse using `File - Import - General - Existing Projects into Workspace`
-8. Configure the QEMU path in `Window - Preferences - Run/Debug - QEMU`
-9. Start debugging using the `mbed-os-qemu Debug` configuration
+5. Import `mbed-os-qemu` in Eclipse using `File - Import - General - Existing Projects into Workspace`
+6. Configure the QEMU path in `Window - Preferences - Run/Debug - QEMU`
+7. Start debugging using the `mbed-os-qemu Debug` configuration
 
 ### Known issues
 
