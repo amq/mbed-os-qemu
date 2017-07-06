@@ -24,7 +24,7 @@ mbed update
 6. Export an Eclipse project
 
 ```
-mbed export -i gnuarmeclipse -m DISCO_F429ZINF
+mbed export -i gnuarmeclipse -m DISCO_F429ZI
 ```
 
 7. Import `mbed-os-qemu` in Eclipse using `File - Import - General - Existing Projects into Workspace`
